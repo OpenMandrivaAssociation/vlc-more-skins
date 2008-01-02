@@ -12,6 +12,7 @@ License:   GPL
 URL:       http://www.videolan.org/vlc/download-skins2.html
 Group:     Video
 Source0:   %{name}.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: svlc
 BuildArch: noarch
 
