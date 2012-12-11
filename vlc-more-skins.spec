@@ -1,6 +1,6 @@
 %define name vlc-more-skins
 %define version 0.1
-%define release %mkrel 6
+%define release %mkrel 5
 
 
 
@@ -41,4 +41,29 @@ rm -rf %buildroot
 %_datadir/vlc/skins2/void.vlt
 %_datadir/vlc/skins2/vplayer.vlt
 %_datadir/vlc/skins2/winamp5.vlt
+
+
+
+%changelog
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1-5mdv2009.0
++ Revision: 261872
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.1-4mdv2009.0
++ Revision: 255570
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.1-2mdv2008.1
++ Revision: 129189
+- kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Jun 30 2005 Sebastien Savarin <plouf@mandriva.org> 0.1-2mdk
+- Fix bad perms on Source
+
+* Thu Jun 30 2005 Sebastien Savarin <plouf@mandriva.org> 0.1-1mdk
+- First Mandriva Linux release
 
