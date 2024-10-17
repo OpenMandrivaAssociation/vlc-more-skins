@@ -9,7 +9,7 @@ Version:   %{version}
 Release:   %{release}
 Summary:   A collection of 7 skins for vlc
 License:   GPL
-URL:       http://www.videolan.org/vlc/download-skins2.html
+URL:       https://www.videolan.org/vlc/download-skins2.html
 Group:     Video
 Source0:   %{name}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-buildroot
